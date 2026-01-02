@@ -9,7 +9,6 @@ namespace Timesheet.API.Controllers
 {
     [ApiController]
     [Route("api/timesheet")]
-    // [Authorize(Roles = "Manager")]
     [EnableCors("allowCors")]
     public class TimesheetController : ControllerBase
     {
@@ -46,7 +45,6 @@ namespace Timesheet.API.Controllers
         {
             if (dto == null) return BadRequest();
 
-            // require comment when rejecting
             if (dto.Status == (int)TimesheetStatus.Rejected && string.IsNullOrWhiteSpace(dto.Comment))
             {
                 return BadRequest("Reject comment is required when status is Rejected.");

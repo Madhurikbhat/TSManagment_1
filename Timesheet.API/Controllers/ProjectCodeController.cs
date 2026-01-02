@@ -7,7 +7,6 @@ namespace Timesheet.API.Controllers
 {
     [ApiController]
     [Route("api/project-codes")]
-    // [Authorize(Roles = "Manager")]
     [EnableCors("allowCors")]
     public class ProjectCodeController : ControllerBase
     {
@@ -28,7 +27,6 @@ namespace Timesheet.API.Controllers
         {
             if (dto == null) return BadRequest();
             var created = await _service.CreateProject(dto);
-            // returns 201 with created resource in body; adjust to CreatedAtAction/GetById when you add a GET by id endpoint
             return CreatedAtAction(nameof(GetAll), null, created);
         }
         [HttpPut("{id}")]

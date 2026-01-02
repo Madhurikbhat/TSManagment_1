@@ -7,7 +7,6 @@ namespace Timesheet.API.Controllers
 {
     [ApiController]
     [Route("api/report")]
-    // [Authorize(Roles = "Manager")]
     [EnableCors("allowCors")]
     public class ReportsController : ControllerBase
     {

@@ -314,33 +314,6 @@ export class EmployeeDashboard implements OnInit {
     };
   }
 
-  private buildTimesheetPayload(status: number, comment = '') {
-    const weekStartDate = this.weekDays?.[0]?.date ?? '';
-    const weekEndDate = this.weekDays?.[this.weekDays.length - 1]?.date ?? '';
-
-    const entries = this.rows.map(r => {
-      const projectCodeId = Number(r.code) || 0;
-      const hoursArr = this.weekDays.map(d => {
-        const raw = r.hours?.[d.date];
-        const hrs = raw === undefined || raw === '' ? 0 : Number(raw);
-        return { date: d.date, hours: Number.isFinite(hrs) ? hrs : 0 };
-      });
-      return {
-        projectCodeId,
-        description: r.description ?? r.projectName ?? '',
-        hours: hoursArr,
-        status,
-        comment
-      };
-    });
-
-    return {
-      userId: Number(this.selectedUser) || 0,
-      weekStartDate,
-      weekEndDate,
-      entries
-    };
-  }
 
   removeRow(i: number) {
     this.rows.splice(i, 1);

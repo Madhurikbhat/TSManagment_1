@@ -34,7 +34,6 @@ namespace Timesheet.Application.Services
             var entity = await _context.ProjectCodes.FirstOrDefaultAsync(p => p.Id == id);
             if (entity == null) return null;
 
-            // Map incoming DTO onto existing entity and persist
             _mapper.Map(dto, entity);
             await _context.SaveChangesAsync();
 

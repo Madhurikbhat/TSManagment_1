@@ -22,9 +22,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProjectAssignmentService, ProjectAssignmentService>();
 builder.Services.AddScoped<IReportService, ReportService>();
 
-//builder.Services.AddApplication();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-//builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddDbContext<TimesheetDbContext>(options =>
     options.UseSqlServer(

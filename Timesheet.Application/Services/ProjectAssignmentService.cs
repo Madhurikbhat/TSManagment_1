@@ -54,7 +54,6 @@ namespace Timesheet.Application.Services
                 .Where(pc => pc.IsActive)
                 .ToListAsync();
 
-            // ensure distinct by id and map
             var distinct = projects.GroupBy(pc => pc.Id).Select(g => g.First()).ToList();
             return distinct.Select(pc => _mapper.Map<ProjectCodeResponseDto>(pc)).ToList();
         }

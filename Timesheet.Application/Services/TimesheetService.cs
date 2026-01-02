@@ -31,10 +31,8 @@ namespace Timesheet.Application.Services
 
         public async Task<TimesheetDto> CreateEntry(CreateTimesheetDto dto)
         {
-            // Map incoming DTO to entity graph
             var entity = _mapper.Map<TimesheetData>(dto);
 
-            // Build set of incoming (projectId, date) pairs to check duplicates
             var incomingPairs = entity.Entries?
                 .SelectMany(en => (en.Hours ?? new List<TimesheetEntryHour>())
                     .Select(h => new { ProjectId = en.ProjectCodeId, Date = h.WorkDate }))
