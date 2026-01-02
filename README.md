@@ -2,8 +2,8 @@ Title: TSManagement — Architecture & Project Overview
 
 **Overview:**
 
-Purpose: Timesheet system with a .NET backend, Angular frontend, and tests + coverage reports.
-Solution file: TSManagement.sln
+- Purpose: Timesheet system with a .NET backend, Angular frontend, and tests + coverage reports.
+- Solution file: TSManagement.sln
 
 **Architecture (high-level):**
 
