@@ -1,0 +1,89 @@
+<div class="manager-timesheets card">
+  <div class="ts-header">
+    <div class="ts-title">
+      <h3>Pending Timesheets</h3>
+    </div>
+
+    <div class="ts-actions">
+      <button class="primary" (click)="loadPending()">Refresh</button>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="ts-table">
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Project</th>
+          <th>Description</th>
+
+          @if (timesheets.length) {
+            @for (date of getWeekDates(timesheets[0]); track date) {
+              <th class="day-col">{{ formatDayName(date) }}</th>
+            }
+          }
+
+          <th class="small">Start</th>
+          <th class="small">End</th>
+          <th class="actions-col">Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @if (timesheets.length) {
+          @for (t of timesheets; track t.id) {
+            @for (e of t.entries; track e.id) {
+              <tr>
+                <td class="user-cell">
+                  <div class="user-name">{{ t.userName || 'User ' + t.userId }}</div>
+                </td>
+
+                <td class="project-cell">
+                  <div class="proj-line">
+                    <span class="proj-name">{{ e.projectName }}</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="desc-line">{{ e.description || '-' }}</div>
+                </td>
+
+                @for (day of getWeekDates(t); track day) {
+                  <td class="hours-col">
+                    <div class="hours-line">{{ hoursFor(e, day) }}</div>
+                  </td>
+                }
+
+                <td class="small">{{ t.weekStartDate }}</td>
+                <td class="small">{{ t.weekEndDate }}</td>
+
+                <td class="actions">
+                  <div class="entry-action-row">
+                    <button class="btn-approve small" (click)="approve(e.id)" title="Approve entry">Approve</button>
+                    <button class="btn-reject small" (click)="openRejectModal(e.id)" title="Reject entry">Reject</button>
+                  </div>
+                </td>
+              </tr>
+            }
+          }
+        } @else {
+          <tr>
+            <td colspan="10" class="no-data">No pending timesheets</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal-overlay" *ngIf="showRejectModal">
+  <div class="modal">
+    <h4>Reject Timesheet</h4>
+    <label for="rejectComment">Comment</label>
+    <textarea id="rejectComment" [(ngModel)]="rejectComment" name="rejectComment" rows="4" placeholder="Enter rejection comment"></textarea>
+    <div class="modal-actions">
+      <button class="primary" (click)="submitReject()" [disabled]="submittingReject">{{ submittingReject ? 'Submitting...' : 'Submit' }}</button>
+      <button (click)="cancelReject()" [disabled]="submittingReject">Cancel</button>
+    </div>
+  </div>
+</div>

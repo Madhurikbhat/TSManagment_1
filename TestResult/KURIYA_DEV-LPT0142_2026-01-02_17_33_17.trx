@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9cbd92db-df81-47ec-973f-4ea986781c62" name="KURIYA@DEV-LPT0142 2026-01-02 17:33:17" runUser="PROWARENESS\KURIYA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-01-02T17:33:17.1273915+05:30" queuing="2026-01-02T17:33:17.1273919+05:30" start="2026-01-02T17:33:15.4007724+05:30" finish="2026-01-02T17:33:18.5990082+05:30" />
+  <TestSettings name="default" id="fe6ae071-95bb-4d81-8c94-0de2da610d76">
+    <Deployment runDeploymentRoot="KURIYA_DEV-LPT0142_2026-01-02_17_33_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c1f804b7-61d5-47ed-9479-885c9ee2188f" testId="225bf036-396c-20b5-91e5-5e3dc28df4ee" testName="Create_NullDto_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.1082900" startTime="2026-01-02T17:33:16.7883938+05:30" endTime="2026-01-02T17:33:16.8965590+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1f804b7-61d5-47ed-9479-885c9ee2188f" />
+    <UnitTestResult executionId="86052c40-4379-4ab6-b2f1-53c028848dec" testId="67f52077-f399-fd86-326f-975e01f0ceed" testName="GetAll_ReturnsOkWithUsers" computerName="DEV-LPT0142" duration="00:00:00.0037580" startTime="2026-01-02T17:33:17.0594726+05:30" endTime="2026-01-02T17:33:17.0632303+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86052c40-4379-4ab6-b2f1-53c028848dec" />
+    <UnitTestResult executionId="475f8f4d-c2b5-403e-9663-8fb99cedc2b3" testId="42618a17-27ea-6a40-fded-302b7a0f036e" testName="GetEmployeeHours_ReturnsOkWithData" computerName="DEV-LPT0142" duration="00:00:00.0064209" startTime="2026-01-02T17:33:17.0095605+05:30" endTime="2026-01-02T17:33:17.0159812+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="475f8f4d-c2b5-403e-9663-8fb99cedc2b3" />
+    <UnitTestResult executionId="31c81f80-7e3f-4d4c-ab53-652f2362435b" testId="68862412-e54f-4c4e-68fc-914523374125" testName="UpdateEntryFully_ReplacesHoursAndUpdatesFields" computerName="DEV-LPT0142" duration="00:00:00.0661510" startTime="2026-01-02T17:33:18.4215985+05:30" endTime="2026-01-02T17:33:18.4877501+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31c81f80-7e3f-4d4c-ab53-652f2362435b" />
+    <UnitTestResult executionId="b5d3fec6-123f-4824-9053-5afc457878f2" testId="8a626dd6-61f5-8c16-5817-f47144a7e33f" testName="GetWeeklyEntriesForUser_ReturnsOkWithList" computerName="DEV-LPT0142" duration="00:00:00.0055270" startTime="2026-01-02T17:33:17.0361520+05:30" endTime="2026-01-02T17:33:17.0416786+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5d3fec6-123f-4824-9053-5afc457878f2" />
+    <UnitTestResult executionId="66891718-3cd4-4227-a5b7-5b28cf19472e" testId="6f1dde94-a7c9-9c57-3ee5-f13d922f1689" testName="UpdateEntryFully_NullDto_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0020530" startTime="2026-01-02T17:33:17.0417101+05:30" endTime="2026-01-02T17:33:17.0437624+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66891718-3cd4-4227-a5b7-5b28cf19472e" />
+    <UnitTestResult executionId="ad183723-695c-44b5-9062-e6c491087611" testId="dced9d28-d876-4327-85e4-e07606e8deee" testName="UpdateStatus_RejectWithoutComment_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0012060" startTime="2026-01-02T17:33:17.0500563+05:30" endTime="2026-01-02T17:33:17.0512619+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad183723-695c-44b5-9062-e6c491087611" />
+    <UnitTestResult executionId="e2017105-8c91-4a79-990c-073bbb2610b9" testId="3d21022d-c21f-2979-d040-10c968456dc0" testName="GetAllUsers_WhenNoUsers_ReturnsEmptyList" computerName="DEV-LPT0142" duration="00:00:00.0014390" startTime="2026-01-02T17:33:18.5254353+05:30" endTime="2026-01-02T17:33:18.5268740+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2017105-8c91-4a79-990c-073bbb2610b9" />
+    <UnitTestResult executionId="105ec9b3-6847-413d-a23e-d1c6bcce7857" testId="d6c5dcbe-2eb9-7e8f-4f90-2d4c1691987f" testName="GetWeeklyEntriesForUser_ReturnsGroupedDailySums" computerName="DEV-LPT0142" duration="00:00:00.0366230" startTime="2026-01-02T17:33:18.3803611+05:30" endTime="2026-01-02T17:33:18.4169834+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="105ec9b3-6847-413d-a23e-d1c6bcce7857" />
+    <UnitTestResult executionId="6084ca9e-897d-4154-9c57-ec9b9aa72c16" testId="33fea593-a6d9-0435-8a53-15f4bac75a36" testName="UpdateStatus_Valid_ReturnsOk" computerName="DEV-LPT0142" duration="00:00:00.0025680" startTime="2026-01-02T17:33:17.0566814+05:30" endTime="2026-01-02T17:33:17.0592492+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6084ca9e-897d-4154-9c57-ec9b9aa72c16" />
+    <UnitTestResult executionId="3a7bc196-33a7-4152-b6c4-06055be9136f" testId="5d3db785-d122-92cb-5d68-adc2e1f148fb" testName="GetProjectHours_ReturnsOkWithData" computerName="DEV-LPT0142" duration="00:00:00.0045900" startTime="2026-01-02T17:33:17.0160110+05:30" endTime="2026-01-02T17:33:17.0206002+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a7bc196-33a7-4152-b6c4-06055be9136f" />
+    <UnitTestResult executionId="8dfce62c-dbb6-4719-9589-0d4158affa32" testId="cf70aba6-d215-ea00-1a70-5a50f2e1034c" testName="UpdateStatus_WithInvalidStatus_Throws" computerName="DEV-LPT0142" duration="00:00:00.0032780" startTime="2026-01-02T17:33:18.4877827+05:30" endTime="2026-01-02T17:33:18.4910605+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dfce62c-dbb6-4719-9589-0d4158affa32" />
+    <UnitTestResult executionId="f4f38d28-8de6-40e7-bb60-48f6b5a0f06c" testId="7e5b4fef-9e0f-0e42-59a2-16749744a2a5" testName="UpdateProject_WhenExists_UpdatesAndReturnsDto" computerName="DEV-LPT0142" duration="00:00:00.0134140" startTime="2026-01-02T17:33:18.1012613+05:30" endTime="2026-01-02T17:33:18.1146748+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4f38d28-8de6-40e7-bb60-48f6b5a0f06c" />
+    <UnitTestResult executionId="6d929dac-1b77-4a21-9ecc-a59df59a434c" testId="d7cebd84-11b2-02e0-8152-10b615fb2e70" testName="UpdateStatus_NullDto_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0019949" startTime="2026-01-02T17:33:17.0480374+05:30" endTime="2026-01-02T17:33:17.0500326+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d929dac-1b77-4a21-9ecc-a59df59a434c" />
+    <UnitTestResult executionId="f5fc611c-fef7-43d2-b1ef-cd18487527e6" testId="79a449b0-cf83-b436-cd25-5e9591788be2" testName="GetAll_WhenNoUsers_ReturnsOkWithEmptyList" computerName="DEV-LPT0142" duration="00:00:00.0066500" startTime="2026-01-02T17:33:17.0632537+05:30" endTime="2026-01-02T17:33:17.0699035+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5fc611c-fef7-43d2-b1ef-cd18487527e6" />
+    <UnitTestResult executionId="e8612dbd-1eb3-4c58-9e83-ab2f159e12d5" testId="8c59a9d9-ec03-acb8-3dcc-be9b14a282b9" testName="Create_NullDto_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0058100" startTime="2026-01-02T17:33:17.0208670+05:30" endTime="2026-01-02T17:33:17.0266769+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8612dbd-1eb3-4c58-9e83-ab2f159e12d5" />
+    <UnitTestResult executionId="a0b7031e-24da-494f-86bb-1680475a470a" testId="f5eae675-7bc5-cd1d-cae9-2cc45f243528" testName="GetAll_ReturnsOkWithList" computerName="DEV-LPT0142" duration="00:00:00.0040530" startTime="2026-01-02T17:33:16.9630851+05:30" endTime="2026-01-02T17:33:16.9671373+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0b7031e-24da-494f-86bb-1680475a470a" />
+    <UnitTestResult executionId="915a4700-b2da-4b1c-9b2e-9f65840eabaa" testId="64f420dc-a0d3-2597-2f16-53c1c003c640" testName="GetAllProjects_ReturnsMappedList" computerName="DEV-LPT0142" duration="00:00:00.0060030" startTime="2026-01-02T17:33:18.0952284+05:30" endTime="2026-01-02T17:33:18.1012311+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915a4700-b2da-4b1c-9b2e-9f65840eabaa" />
+    <UnitTestResult executionId="369799be-1c6b-4284-af56-097bf3bfb139" testId="a9fdbe8d-6f62-ddd4-b419-293a90df5984" testName="GetProjectsByUser_ReturnsOkWithProjects" computerName="DEV-LPT0142" duration="00:00:00.0054500" startTime="2026-01-02T17:33:16.9671817+05:30" endTime="2026-01-02T17:33:16.9726316+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="369799be-1c6b-4284-af56-097bf3bfb139" />
+    <UnitTestResult executionId="2b6eedca-a830-4e42-9436-a3fcc55d3de0" testId="3090696b-d503-05e5-ea0f-7de88e39d0a0" testName="Create_NullDto_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0042350" startTime="2026-01-02T17:33:16.9769920+05:30" endTime="2026-01-02T17:33:16.9812271+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b6eedca-a830-4e42-9436-a3fcc55d3de0" />
+    <UnitTestResult executionId="f911c66b-f8a9-4781-a19a-f26c71f31c3c" testId="59c423fd-afe9-fe5a-245e-abaa697958f5" testName="UpdateStatus_ServiceThrows_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0053510" startTime="2026-01-02T17:33:17.0512917+05:30" endTime="2026-01-02T17:33:17.0566419+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f911c66b-f8a9-4781-a19a-f26c71f31c3c" />
+    <UnitTestResult executionId="d84158f2-64de-4121-885b-fa05a98017a8" testId="39f63e5e-b584-7422-651d-ff460e944454" testName="GetAllUsers_ReturnsMappedList" computerName="DEV-LPT0142" duration="00:00:00.0083810" startTime="2026-01-02T17:33:18.5170170+05:30" endTime="2026-01-02T17:33:18.5253978+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d84158f2-64de-4121-885b-fa05a98017a8" />
+    <UnitTestResult executionId="d7f268a5-cc17-4c5a-997b-afb6db5bfd2b" testId="993cbc2c-a9b5-2850-1aa3-ce07e45d0617" testName="GetBillableHours_ReturnsOkWithData" computerName="DEV-LPT0142" duration="00:00:00.0129730" startTime="2026-01-02T17:33:16.9964890+05:30" endTime="2026-01-02T17:33:17.0094611+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7f268a5-cc17-4c5a-997b-afb6db5bfd2b" />
+    <UnitTestResult executionId="eb916533-a303-4f38-a9c4-cf0a9bf3cfe3" testId="04d5013a-f165-f4a9-7ea4-e27c220a725c" testName="Create_ValidDto_CallsServiceAndReturnsCreated" computerName="DEV-LPT0142" duration="00:00:00.0059870" startTime="2026-01-02T17:33:16.9812656+05:30" endTime="2026-01-02T17:33:16.9872525+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb916533-a303-4f38-a9c4-cf0a9bf3cfe3" />
+    <UnitTestResult executionId="8c4115b6-faf0-4ccd-98ef-2cd4bf3414da" testId="3546290d-9031-692a-b2f2-0b326d62d907" testName="GetBillableHoursSummary_ReturnsBillableAndNonBillableTotals" computerName="DEV-LPT0142" duration="00:00:00.1023860" startTime="2026-01-02T17:33:18.1246853+05:30" endTime="2026-01-02T17:33:18.2270709+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c4115b6-faf0-4ccd-98ef-2cd4bf3414da" />
+    <UnitTestResult executionId="9b9cb656-4564-48d9-bff5-0024040c344f" testId="8423ff47-1192-1774-4483-d0269bda9033" testName="CreateProject_AddsEntityAndReturnsDto" computerName="DEV-LPT0142" duration="00:00:00.0103000" startTime="2026-01-02T17:33:18.0848976+05:30" endTime="2026-01-02T17:33:18.0951975+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b9cb656-4564-48d9-bff5-0024040c344f" />
+    <UnitTestResult executionId="c4bf8368-0fc4-4ca3-a46c-26103397e56e" testId="c541c800-a888-1c1c-215a-778404121b1d" testName="UpdateEntryFully_RejectWithoutComment_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0013900" startTime="2026-01-02T17:33:17.0437859+05:30" endTime="2026-01-02T17:33:17.0451761+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4bf8368-0fc4-4ca3-a46c-26103397e56e" />
+    <UnitTestResult executionId="700caa02-c3c1-4d87-885f-e1abb4bc3b3c" testId="c597e028-396f-2c14-835c-3fb0ae55624a" testName="UpdateStatus_WithValidStatus_UpdatesAndReturnsParent" computerName="DEV-LPT0142" duration="00:00:00.0257570" startTime="2026-01-02T17:33:18.4910837+05:30" endTime="2026-01-02T17:33:18.5168398+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="700caa02-c3c1-4d87-885f-e1abb4bc3b3c" />
+    <UnitTestResult executionId="a845e62b-1925-481e-801e-7128bea031ba" testId="cc7af432-b292-909a-3e06-077451811ef0" testName="CreateProjectAssignment_AddsEntityAndReturnsResponseDto" computerName="DEV-LPT0142" duration="00:00:00.8851800" startTime="2026-01-02T17:33:17.0743416+05:30" endTime="2026-01-02T17:33:17.9595222+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a845e62b-1925-481e-801e-7128bea031ba" />
+    <UnitTestResult executionId="78ca6dcf-30d8-4202-9147-a1b02cec432f" testId="bb35f0d6-09eb-f441-0882-ec3823c3cb37" testName="Update_WhenExists_ReturnsOkWithDto" computerName="DEV-LPT0142" duration="00:00:00.0020430" startTime="2026-01-02T17:33:16.9922985+05:30" endTime="2026-01-02T17:33:16.9943413+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78ca6dcf-30d8-4202-9147-a1b02cec432f" />
+    <UnitTestResult executionId="fc57cdbb-232e-4c02-b51e-fdf994aa2cb5" testId="eceaf229-dabe-82d2-09c0-f0c4ffde92e8" testName="GetAllTimesheetEntries_ReturnsMappedDtos" computerName="DEV-LPT0142" duration="00:00:00.0170410" startTime="2026-01-02T17:33:18.3632885+05:30" endTime="2026-01-02T17:33:18.3803288+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc57cdbb-232e-4c02-b51e-fdf994aa2cb5" />
+    <UnitTestResult executionId="a8db4bc3-fe27-4e7f-91fa-7205e2a605f5" testId="2172b20d-f1b6-101c-697c-979b49fe0518" testName="GetEmployeeHoursSummary_ReturnsTotalsAndRespectsDateFilter" computerName="DEV-LPT0142" duration="00:00:00.0565210" startTime="2026-01-02T17:33:18.2271035+05:30" endTime="2026-01-02T17:33:18.2836236+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8db4bc3-fe27-4e7f-91fa-7205e2a605f5" />
+    <UnitTestResult executionId="14ec0cc8-45c2-423b-b4b9-913e0e9c0de7" testId="17a6156b-4fae-da49-cac9-49581476ad35" testName="UpdateProject_WhenNotFound_ReturnsNull" computerName="DEV-LPT0142" duration="00:00:00.0098410" startTime="2026-01-02T17:33:18.1147052+05:30" endTime="2026-01-02T17:33:18.1245454+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14ec0cc8-45c2-423b-b4b9-913e0e9c0de7" />
+    <UnitTestResult executionId="f8eea82f-6a9f-4e5d-9da5-1242c710f74a" testId="137536f3-b3c1-13c8-6fff-e05616c90a39" testName="GetTimesheets_ReturnsOkWithList" computerName="DEV-LPT0142" duration="00:00:00.0024290" startTime="2026-01-02T17:33:17.0336971+05:30" endTime="2026-01-02T17:33:17.0361261+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8eea82f-6a9f-4e5d-9da5-1242c710f74a" />
+    <UnitTestResult executionId="92ffddc1-5b16-4638-a6c1-267960d18bff" testId="e01f41d2-8d57-9809-9bf5-54500e2c719f" testName="UpdateEntryFully_Valid_ReturnsOk" computerName="DEV-LPT0142" duration="00:00:00.0028160" startTime="2026-01-02T17:33:17.0451965+05:30" endTime="2026-01-02T17:33:17.0480127+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92ffddc1-5b16-4638-a6c1-267960d18bff" />
+    <UnitTestResult executionId="968a21d0-75cd-422e-ba1b-ab9c62d0234d" testId="46a217ca-c51d-2f89-aa90-c2be544983ef" testName="GetProjectHoursSummary_ReturnsProjectTotals" computerName="DEV-LPT0142" duration="00:00:00.0212130" startTime="2026-01-02T17:33:18.2837197+05:30" endTime="2026-01-02T17:33:18.3049324+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="968a21d0-75cd-422e-ba1b-ab9c62d0234d" />
+    <UnitTestResult executionId="951d1174-ca66-4314-8de3-c200f86356df" testId="bdaf601a-2210-8219-089e-60e803bf98e2" testName="Update_NullDto_ReturnsBadRequest" computerName="DEV-LPT0142" duration="00:00:00.0017970" startTime="2026-01-02T17:33:16.9904664+05:30" endTime="2026-01-02T17:33:16.9922634+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="951d1174-ca66-4314-8de3-c200f86356df" />
+    <UnitTestResult executionId="1fcc3a05-3ce6-49a0-aa92-3bb38b761546" testId="b5f86ef7-813b-f60c-4b96-e04833e2fa4b" testName="GetProjectsByUserId_ReturnsDistinctActiveProjects" computerName="DEV-LPT0142" duration="00:00:00.1038370" startTime="2026-01-02T17:33:17.9808962+05:30" endTime="2026-01-02T17:33:18.0847330+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fcc3a05-3ce6-49a0-aa92-3bb38b761546" />
+    <UnitTestResult executionId="3ccbec57-5ecc-48a9-a023-b324755088c6" testId="a532be35-99d7-cc29-15df-1ef7166286ee" testName="Update_WhenNotFound_ReturnsNotFound" computerName="DEV-LPT0142" duration="00:00:00.0017630" startTime="2026-01-02T17:33:16.9943864+05:30" endTime="2026-01-02T17:33:16.9961487+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ccbec57-5ecc-48a9-a023-b324755088c6" />
+    <UnitTestResult executionId="2988c98b-c00c-4b88-94b1-60f2aa4b21de" testId="6431911b-6c04-a4fd-ea75-8e537cfd87dd" testName="CreateEntry_WhenDuplicateHours_ReturnsExistingTimesheet" computerName="DEV-LPT0142" duration="00:00:00.0581600" startTime="2026-01-02T17:33:18.3050976+05:30" endTime="2026-01-02T17:33:18.3632572+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2988c98b-c00c-4b88-94b1-60f2aa4b21de" />
+    <UnitTestResult executionId="8aada3ac-0ef7-41df-9b9e-cd039f8f7da5" testId="5fd7b4a5-3d9a-2bcc-616c-bb4b9251a004" testName="Create_ValidDto_CallsServiceAndReturnsCreated" computerName="DEV-LPT0142" duration="00:00:00.0643650" startTime="2026-01-02T17:33:16.8986382+05:30" endTime="2026-01-02T17:33:16.9630024+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aada3ac-0ef7-41df-9b9e-cd039f8f7da5" />
+    <UnitTestResult executionId="1278946a-c8d2-44be-bbc5-2966295e47c3" testId="a7fb2163-1f17-aaf1-ab69-3f90234b60da" testName="GetAllProjectAssignment_ReturnsMappedList" computerName="DEV-LPT0142" duration="00:00:00.0213070" startTime="2026-01-02T17:33:17.9595556+05:30" endTime="2026-01-02T17:33:17.9808619+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1278946a-c8d2-44be-bbc5-2966295e47c3" />
+    <UnitTestResult executionId="62c21e39-098e-4902-b951-b27ce7afcb6b" testId="7791099e-2581-1376-7544-c1619733f2c4" testName="GetAll_ReturnsOkWithList" computerName="DEV-LPT0142" duration="00:00:00.0024060" startTime="2026-01-02T17:33:17.0312068+05:30" endTime="2026-01-02T17:33:17.0336118+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62c21e39-098e-4902-b951-b27ce7afcb6b" />
+    <UnitTestResult executionId="e97cd34c-aff8-492c-b46a-fa9dc4773524" testId="a1d6406b-67d7-2643-9aa9-798854ee5a29" testName="GetAll_ReturnsOkWithList" computerName="DEV-LPT0142" duration="00:00:00.0031310" startTime="2026-01-02T17:33:16.9872961+05:30" endTime="2026-01-02T17:33:16.9904274+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e97cd34c-aff8-492c-b46a-fa9dc4773524" />
+    <UnitTestResult executionId="3d1c5748-532c-402d-9f6d-9bbf7ff187f0" testId="1a660adb-8f05-a20f-e560-321cf1aed17f" testName="Create_ValidDto_ReturnsCreated" computerName="DEV-LPT0142" duration="00:00:00.0044780" startTime="2026-01-02T17:33:17.0267043+05:30" endTime="2026-01-02T17:33:17.0311817+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d1c5748-532c-402d-9f6d-9bbf7ff187f0" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="UpdateEntryFully_Valid_ReturnsOk" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="e01f41d2-8d57-9809-9bf5-54500e2c719f">
+      <Execution id="92ffddc1-5b16-4638-a6c1-267960d18bff" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateEntryFully_Valid_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="GetAllTimesheetEntries_ReturnsMappedDtos" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="eceaf229-dabe-82d2-09c0-f0c4ffde92e8">
+      <Execution id="fc57cdbb-232e-4c02-b51e-fdf994aa2cb5" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.TimesheetServiceTests" name="GetAllTimesheetEntries_ReturnsMappedDtos" />
+    </UnitTest>
+    <UnitTest name="Create_ValidDto_CallsServiceAndReturnsCreated" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="04d5013a-f165-f4a9-7ea4-e27c220a725c">
+      <Execution id="eb916533-a303-4f38-a9c4-cf0a9bf3cfe3" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectCodeControllerTests" name="Create_ValidDto_CallsServiceAndReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="UpdateStatus_NullDto_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="d7cebd84-11b2-02e0-8152-10b615fb2e70">
+      <Execution id="6d929dac-1b77-4a21-9ecc-a59df59a434c" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateStatus_NullDto_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Update_NullDto_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="bdaf601a-2210-8219-089e-60e803bf98e2">
+      <Execution id="951d1174-ca66-4314-8de3-c200f86356df" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectCodeControllerTests" name="Update_NullDto_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="UpdateStatus_RejectWithoutComment_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="dced9d28-d876-4327-85e4-e07606e8deee">
+      <Execution id="ad183723-695c-44b5-9062-e6c491087611" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateStatus_RejectWithoutComment_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="GetProjectsByUser_ReturnsOkWithProjects" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="a9fdbe8d-6f62-ddd4-b419-293a90df5984">
+      <Execution id="369799be-1c6b-4284-af56-097bf3bfb139" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectAssignmentControllerTests" name="GetProjectsByUser_ReturnsOkWithProjects" />
+    </UnitTest>
+    <UnitTest name="Create_NullDto_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="225bf036-396c-20b5-91e5-5e3dc28df4ee">
+      <Execution id="c1f804b7-61d5-47ed-9479-885c9ee2188f" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectAssignmentControllerTests" name="Create_NullDto_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Create_NullDto_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="8c59a9d9-ec03-acb8-3dcc-be9b14a282b9">
+      <Execution id="e8612dbd-1eb3-4c58-9e83-ab2f159e12d5" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="Create_NullDto_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="CreateEntry_WhenDuplicateHours_ReturnsExistingTimesheet" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="6431911b-6c04-a4fd-ea75-8e537cfd87dd">
+      <Execution id="2988c98b-c00c-4b88-94b1-60f2aa4b21de" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.TimesheetServiceTests" name="CreateEntry_WhenDuplicateHours_ReturnsExistingTimesheet" />
+    </UnitTest>
+    <UnitTest name="GetEmployeeHoursSummary_ReturnsTotalsAndRespectsDateFilter" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="2172b20d-f1b6-101c-697c-979b49fe0518">
+      <Execution id="a8db4bc3-fe27-4e7f-91fa-7205e2a605f5" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ReportServiceTests" name="GetEmployeeHoursSummary_ReturnsTotalsAndRespectsDateFilter" />
+    </UnitTest>
+    <UnitTest name="GetWeeklyEntriesForUser_ReturnsOkWithList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="8a626dd6-61f5-8c16-5817-f47144a7e33f">
+      <Execution id="b5d3fec6-123f-4824-9053-5afc457878f2" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="GetWeeklyEntriesForUser_ReturnsOkWithList" />
+    </UnitTest>
+    <UnitTest name="GetProjectHours_ReturnsOkWithData" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="5d3db785-d122-92cb-5d68-adc2e1f148fb">
+      <Execution id="3a7bc196-33a7-4152-b6c4-06055be9136f" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ReportsControllerTests" name="GetProjectHours_ReturnsOkWithData" />
+    </UnitTest>
+    <UnitTest name="UpdateProject_WhenNotFound_ReturnsNull" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="17a6156b-4fae-da49-cac9-49581476ad35">
+      <Execution id="14ec0cc8-45c2-423b-b4b9-913e0e9c0de7" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectCodeServiceTests" name="UpdateProject_WhenNotFound_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="GetProjectHoursSummary_ReturnsProjectTotals" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="46a217ca-c51d-2f89-aa90-c2be544983ef">
+      <Execution id="968a21d0-75cd-422e-ba1b-ab9c62d0234d" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ReportServiceTests" name="GetProjectHoursSummary_ReturnsProjectTotals" />
+    </UnitTest>
+    <UnitTest name="Create_ValidDto_CallsServiceAndReturnsCreated" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="5fd7b4a5-3d9a-2bcc-616c-bb4b9251a004">
+      <Execution id="8aada3ac-0ef7-41df-9b9e-cd039f8f7da5" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectAssignmentControllerTests" name="Create_ValidDto_CallsServiceAndReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="UpdateEntryFully_ReplacesHoursAndUpdatesFields" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="68862412-e54f-4c4e-68fc-914523374125">
+      <Execution id="31c81f80-7e3f-4d4c-ab53-652f2362435b" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.TimesheetServiceTests" name="UpdateEntryFully_ReplacesHoursAndUpdatesFields" />
+    </UnitTest>
+    <UnitTest name="GetEmployeeHours_ReturnsOkWithData" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="42618a17-27ea-6a40-fded-302b7a0f036e">
+      <Execution id="475f8f4d-c2b5-403e-9663-8fb99cedc2b3" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ReportsControllerTests" name="GetEmployeeHours_ReturnsOkWithData" />
+    </UnitTest>
+    <UnitTest name="UpdateProject_WhenExists_UpdatesAndReturnsDto" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="7e5b4fef-9e0f-0e42-59a2-16749744a2a5">
+      <Execution id="f4f38d28-8de6-40e7-bb60-48f6b5a0f06c" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectCodeServiceTests" name="UpdateProject_WhenExists_UpdatesAndReturnsDto" />
+    </UnitTest>
+    <UnitTest name="GetTimesheets_ReturnsOkWithList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="137536f3-b3c1-13c8-6fff-e05616c90a39">
+      <Execution id="f8eea82f-6a9f-4e5d-9da5-1242c710f74a" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="GetTimesheets_ReturnsOkWithList" />
+    </UnitTest>
+    <UnitTest name="GetAll_ReturnsOkWithList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="7791099e-2581-1376-7544-c1619733f2c4">
+      <Execution id="62c21e39-098e-4902-b951-b27ce7afcb6b" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="GetAll_ReturnsOkWithList" />
+    </UnitTest>
+    <UnitTest name="GetAllProjectAssignment_ReturnsMappedList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="a7fb2163-1f17-aaf1-ab69-3f90234b60da">
+      <Execution id="1278946a-c8d2-44be-bbc5-2966295e47c3" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectAssignmentServiceTests" name="GetAllProjectAssignment_ReturnsMappedList" />
+    </UnitTest>
+    <UnitTest name="GetAllUsers_ReturnsMappedList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="39f63e5e-b584-7422-651d-ff460e944454">
+      <Execution id="d84158f2-64de-4121-885b-fa05a98017a8" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.UserServiceTests" name="GetAllUsers_ReturnsMappedList" />
+    </UnitTest>
+    <UnitTest name="GetAll_ReturnsOkWithList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="a1d6406b-67d7-2643-9aa9-798854ee5a29">
+      <Execution id="e97cd34c-aff8-492c-b46a-fa9dc4773524" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectCodeControllerTests" name="GetAll_ReturnsOkWithList" />
+    </UnitTest>
+    <UnitTest name="UpdateEntryFully_NullDto_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="6f1dde94-a7c9-9c57-3ee5-f13d922f1689">
+      <Execution id="66891718-3cd4-4227-a5b7-5b28cf19472e" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateEntryFully_NullDto_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="GetBillableHours_ReturnsOkWithData" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="993cbc2c-a9b5-2850-1aa3-ce07e45d0617">
+      <Execution id="d7f268a5-cc17-4c5a-997b-afb6db5bfd2b" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ReportsControllerTests" name="GetBillableHours_ReturnsOkWithData" />
+    </UnitTest>
+    <UnitTest name="GetAll_ReturnsOkWithList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="f5eae675-7bc5-cd1d-cae9-2cc45f243528">
+      <Execution id="a0b7031e-24da-494f-86bb-1680475a470a" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectAssignmentControllerTests" name="GetAll_ReturnsOkWithList" />
+    </UnitTest>
+    <UnitTest name="Create_ValidDto_ReturnsCreated" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="1a660adb-8f05-a20f-e560-321cf1aed17f">
+      <Execution id="3d1c5748-532c-402d-9f6d-9bbf7ff187f0" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="Create_ValidDto_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="CreateProject_AddsEntityAndReturnsDto" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="8423ff47-1192-1774-4483-d0269bda9033">
+      <Execution id="9b9cb656-4564-48d9-bff5-0024040c344f" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectCodeServiceTests" name="CreateProject_AddsEntityAndReturnsDto" />
+    </UnitTest>
+    <UnitTest name="GetBillableHoursSummary_ReturnsBillableAndNonBillableTotals" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="3546290d-9031-692a-b2f2-0b326d62d907">
+      <Execution id="8c4115b6-faf0-4ccd-98ef-2cd4bf3414da" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ReportServiceTests" name="GetBillableHoursSummary_ReturnsBillableAndNonBillableTotals" />
+    </UnitTest>
+    <UnitTest name="UpdateStatus_WithValidStatus_UpdatesAndReturnsParent" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="c597e028-396f-2c14-835c-3fb0ae55624a">
+      <Execution id="700caa02-c3c1-4d87-885f-e1abb4bc3b3c" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.TimesheetServiceTests" name="UpdateStatus_WithValidStatus_UpdatesAndReturnsParent" />
+    </UnitTest>
+    <UnitTest name="GetWeeklyEntriesForUser_ReturnsGroupedDailySums" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="d6c5dcbe-2eb9-7e8f-4f90-2d4c1691987f">
+      <Execution id="105ec9b3-6847-413d-a23e-d1c6bcce7857" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.TimesheetServiceTests" name="GetWeeklyEntriesForUser_ReturnsGroupedDailySums" />
+    </UnitTest>
+    <UnitTest name="Update_WhenNotFound_ReturnsNotFound" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="a532be35-99d7-cc29-15df-1ef7166286ee">
+      <Execution id="3ccbec57-5ecc-48a9-a023-b324755088c6" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectCodeControllerTests" name="Update_WhenNotFound_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="Create_NullDto_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="3090696b-d503-05e5-ea0f-7de88e39d0a0">
+      <Execution id="2b6eedca-a830-4e42-9436-a3fcc55d3de0" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectCodeControllerTests" name="Create_NullDto_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="UpdateStatus_WithInvalidStatus_Throws" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="cf70aba6-d215-ea00-1a70-5a50f2e1034c">
+      <Execution id="8dfce62c-dbb6-4719-9589-0d4158affa32" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.TimesheetServiceTests" name="UpdateStatus_WithInvalidStatus_Throws" />
+    </UnitTest>
+    <UnitTest name="UpdateEntryFully_RejectWithoutComment_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="c541c800-a888-1c1c-215a-778404121b1d">
+      <Execution id="c4bf8368-0fc4-4ca3-a46c-26103397e56e" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateEntryFully_RejectWithoutComment_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="CreateProjectAssignment_AddsEntityAndReturnsResponseDto" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="cc7af432-b292-909a-3e06-077451811ef0">
+      <Execution id="a845e62b-1925-481e-801e-7128bea031ba" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectAssignmentServiceTests" name="CreateProjectAssignment_AddsEntityAndReturnsResponseDto" />
+    </UnitTest>
+    <UnitTest name="GetAll_WhenNoUsers_ReturnsOkWithEmptyList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="79a449b0-cf83-b436-cd25-5e9591788be2">
+      <Execution id="f5fc611c-fef7-43d2-b1ef-cd18487527e6" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.UserControllerTests" name="GetAll_WhenNoUsers_ReturnsOkWithEmptyList" />
+    </UnitTest>
+    <UnitTest name="UpdateStatus_Valid_ReturnsOk" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="33fea593-a6d9-0435-8a53-15f4bac75a36">
+      <Execution id="6084ca9e-897d-4154-9c57-ec9b9aa72c16" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateStatus_Valid_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="GetAll_ReturnsOkWithUsers" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="67f52077-f399-fd86-326f-975e01f0ceed">
+      <Execution id="86052c40-4379-4ab6-b2f1-53c028848dec" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.UserControllerTests" name="GetAll_ReturnsOkWithUsers" />
+    </UnitTest>
+    <UnitTest name="UpdateStatus_ServiceThrows_ReturnsBadRequest" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="59c423fd-afe9-fe5a-245e-abaa697958f5">
+      <Execution id="f911c66b-f8a9-4781-a19a-f26c71f31c3c" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.TimesheetControllerTests" name="UpdateStatus_ServiceThrows_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="GetProjectsByUserId_ReturnsDistinctActiveProjects" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="b5f86ef7-813b-f60c-4b96-e04833e2fa4b">
+      <Execution id="1fcc3a05-3ce6-49a0-aa92-3bb38b761546" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectAssignmentServiceTests" name="GetProjectsByUserId_ReturnsDistinctActiveProjects" />
+    </UnitTest>
+    <UnitTest name="GetAllProjects_ReturnsMappedList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="64f420dc-a0d3-2597-2f16-53c1c003c640">
+      <Execution id="915a4700-b2da-4b1c-9b2e-9f65840eabaa" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.ProjectCodeServiceTests" name="GetAllProjects_ReturnsMappedList" />
+    </UnitTest>
+    <UnitTest name="Update_WhenExists_ReturnsOkWithDto" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="bb35f0d6-09eb-f441-0882-ec3823c3cb37">
+      <Execution id="78ca6dcf-30d8-4202-9147-a1b02cec432f" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Controller.ProjectCodeControllerTests" name="Update_WhenExists_ReturnsOkWithDto" />
+    </UnitTest>
+    <UnitTest name="GetAllUsers_WhenNoUsers_ReturnsEmptyList" storage="c:\users\kuriya\source\repos\tsmanagement\timesheet.test\bin\debug\net8.0\timesheet.test.dll" id="3d21022d-c21f-2979-d040-10c968456dc0">
+      <Execution id="e2017105-8c91-4a79-990c-073bbb2610b9" />
+      <TestMethod codeBase="C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="Timesheet.Test.Services.UserServiceTests" name="GetAllUsers_WhenNoUsers_ReturnsEmptyList" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="225bf036-396c-20b5-91e5-5e3dc28df4ee" executionId="c1f804b7-61d5-47ed-9479-885c9ee2188f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67f52077-f399-fd86-326f-975e01f0ceed" executionId="86052c40-4379-4ab6-b2f1-53c028848dec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42618a17-27ea-6a40-fded-302b7a0f036e" executionId="475f8f4d-c2b5-403e-9663-8fb99cedc2b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68862412-e54f-4c4e-68fc-914523374125" executionId="31c81f80-7e3f-4d4c-ab53-652f2362435b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a626dd6-61f5-8c16-5817-f47144a7e33f" executionId="b5d3fec6-123f-4824-9053-5afc457878f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f1dde94-a7c9-9c57-3ee5-f13d922f1689" executionId="66891718-3cd4-4227-a5b7-5b28cf19472e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dced9d28-d876-4327-85e4-e07606e8deee" executionId="ad183723-695c-44b5-9062-e6c491087611" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d21022d-c21f-2979-d040-10c968456dc0" executionId="e2017105-8c91-4a79-990c-073bbb2610b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6c5dcbe-2eb9-7e8f-4f90-2d4c1691987f" executionId="105ec9b3-6847-413d-a23e-d1c6bcce7857" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33fea593-a6d9-0435-8a53-15f4bac75a36" executionId="6084ca9e-897d-4154-9c57-ec9b9aa72c16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d3db785-d122-92cb-5d68-adc2e1f148fb" executionId="3a7bc196-33a7-4152-b6c4-06055be9136f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf70aba6-d215-ea00-1a70-5a50f2e1034c" executionId="8dfce62c-dbb6-4719-9589-0d4158affa32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e5b4fef-9e0f-0e42-59a2-16749744a2a5" executionId="f4f38d28-8de6-40e7-bb60-48f6b5a0f06c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7cebd84-11b2-02e0-8152-10b615fb2e70" executionId="6d929dac-1b77-4a21-9ecc-a59df59a434c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79a449b0-cf83-b436-cd25-5e9591788be2" executionId="f5fc611c-fef7-43d2-b1ef-cd18487527e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c59a9d9-ec03-acb8-3dcc-be9b14a282b9" executionId="e8612dbd-1eb3-4c58-9e83-ab2f159e12d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5eae675-7bc5-cd1d-cae9-2cc45f243528" executionId="a0b7031e-24da-494f-86bb-1680475a470a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64f420dc-a0d3-2597-2f16-53c1c003c640" executionId="915a4700-b2da-4b1c-9b2e-9f65840eabaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9fdbe8d-6f62-ddd4-b419-293a90df5984" executionId="369799be-1c6b-4284-af56-097bf3bfb139" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3090696b-d503-05e5-ea0f-7de88e39d0a0" executionId="2b6eedca-a830-4e42-9436-a3fcc55d3de0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59c423fd-afe9-fe5a-245e-abaa697958f5" executionId="f911c66b-f8a9-4781-a19a-f26c71f31c3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39f63e5e-b584-7422-651d-ff460e944454" executionId="d84158f2-64de-4121-885b-fa05a98017a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="993cbc2c-a9b5-2850-1aa3-ce07e45d0617" executionId="d7f268a5-cc17-4c5a-997b-afb6db5bfd2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04d5013a-f165-f4a9-7ea4-e27c220a725c" executionId="eb916533-a303-4f38-a9c4-cf0a9bf3cfe3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3546290d-9031-692a-b2f2-0b326d62d907" executionId="8c4115b6-faf0-4ccd-98ef-2cd4bf3414da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8423ff47-1192-1774-4483-d0269bda9033" executionId="9b9cb656-4564-48d9-bff5-0024040c344f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c541c800-a888-1c1c-215a-778404121b1d" executionId="c4bf8368-0fc4-4ca3-a46c-26103397e56e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c597e028-396f-2c14-835c-3fb0ae55624a" executionId="700caa02-c3c1-4d87-885f-e1abb4bc3b3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc7af432-b292-909a-3e06-077451811ef0" executionId="a845e62b-1925-481e-801e-7128bea031ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb35f0d6-09eb-f441-0882-ec3823c3cb37" executionId="78ca6dcf-30d8-4202-9147-a1b02cec432f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eceaf229-dabe-82d2-09c0-f0c4ffde92e8" executionId="fc57cdbb-232e-4c02-b51e-fdf994aa2cb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2172b20d-f1b6-101c-697c-979b49fe0518" executionId="a8db4bc3-fe27-4e7f-91fa-7205e2a605f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a6156b-4fae-da49-cac9-49581476ad35" executionId="14ec0cc8-45c2-423b-b4b9-913e0e9c0de7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="137536f3-b3c1-13c8-6fff-e05616c90a39" executionId="f8eea82f-6a9f-4e5d-9da5-1242c710f74a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e01f41d2-8d57-9809-9bf5-54500e2c719f" executionId="92ffddc1-5b16-4638-a6c1-267960d18bff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46a217ca-c51d-2f89-aa90-c2be544983ef" executionId="968a21d0-75cd-422e-ba1b-ab9c62d0234d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdaf601a-2210-8219-089e-60e803bf98e2" executionId="951d1174-ca66-4314-8de3-c200f86356df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5f86ef7-813b-f60c-4b96-e04833e2fa4b" executionId="1fcc3a05-3ce6-49a0-aa92-3bb38b761546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a532be35-99d7-cc29-15df-1ef7166286ee" executionId="3ccbec57-5ecc-48a9-a023-b324755088c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6431911b-6c04-a4fd-ea75-8e537cfd87dd" executionId="2988c98b-c00c-4b88-94b1-60f2aa4b21de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fd7b4a5-3d9a-2bcc-616c-bb4b9251a004" executionId="8aada3ac-0ef7-41df-9b9e-cd039f8f7da5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7fb2163-1f17-aaf1-ab69-3f90234b60da" executionId="1278946a-c8d2-44be-bbc5-2966295e47c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7791099e-2581-1376-7544-c1619733f2c4" executionId="62c21e39-098e-4902-b951-b27ce7afcb6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d6406b-67d7-2643-9aa9-798854ee5a29" executionId="e97cd34c-aff8-492c-b46a-fa9dc4773524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a660adb-8f05-a20f-e560-321cf1aed17f" executionId="3d1c5748-532c-402d-9f6d-9bbf7ff187f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="45" executed="45" passed="45" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Test\bin\Debug\net8.0\Timesheet.Test.dll&#xD;
+   NUnit3TestExecutor discovered 45 of 45 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

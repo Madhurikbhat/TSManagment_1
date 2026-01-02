@@ -1,0 +1,90 @@
+/* ...existing code... */
+.project-assignment {
+  padding: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+  color: #222;
+}
+
+.project-assignment h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+}
+
+/* form */
+.assignment-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.assignment-form select,
+.assignment-form input[type="date"] {
+  padding: 8px 10px;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.95rem;
+}
+.assignment-form button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.06);
+  background: #0d6efd;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* table */
+.assign-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.assign-table thead {
+  background: linear-gradient(#fbfdff, #f3f6f9);
+}
+
+.assign-table th,
+.assign-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eef2f5;
+  text-align: left;
+  font-size: 0.95rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.assign-table thead th {
+  font-weight: 600;
+  color: #333;
+}
+
+.assign-table tbody tr:nth-child(even) {
+  background: #fbfcfd;
+}
+
+.assign-table tbody tr:hover {
+  background: #f6fbff;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .assignment-form {
+    gap: 8px;
+  }
+  .assign-table {
+    display: block;
+    overflow-x: auto;
+  }
+  .assign-table th,
+  .assign-table td {
+    white-space: normal;
+    font-size: 0.9rem;
+  }
+}
+/* ...existing code... */

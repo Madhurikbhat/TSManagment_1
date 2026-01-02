@@ -1,0 +1,32 @@
+.wk-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+.wk-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 0;
+}
+.wk-btn:hover { background: #f3f6fb; }
+.wk-label {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #f7fafc;
+  font-weight: 600;
+}
+.wk-today {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.06);
+  background: #fff;
+  cursor: pointer;
+}

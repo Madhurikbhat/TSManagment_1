@@ -1,0 +1,28 @@
+<div class="dashboard">
+  <nav class="top-bar" style="display:flex;gap:12px;padding:12px;border-bottom:1px solid #ddd;">
+    <button (click)="selectTab('entry')" [class.active]="currentTab==='entry'">Entry</button>
+    <button (click)="selectTab('project-code')" [class.active]="currentTab==='project-code'">Project Code</button>
+    <button (click)="selectTab('report')" [class.active]="currentTab==='report'">Report</button>
+    <button (click)="selectTab('project-assignment')" [class.active]="currentTab==='project-assignment'">Project
+      Assignment</button>
+  </nav>
+  <section class="tab-content" style="padding:12px;">
+
+    @if (currentTab === 'entry') {
+    <app-timesheet-entry></app-timesheet-entry>
+    }
+
+    @if (currentTab === 'project-code') {
+    <app-project-code [projectCodes]="projects$ | async"></app-project-code>
+    }
+
+    @if (currentTab === 'report') {
+
+    <app-reports></app-reports>
+    }
+    @if (currentTab === 'project-assignment') {
+    <app-project-assignment></app-project-assignment>
+    }
+
+  </section>
+</div>

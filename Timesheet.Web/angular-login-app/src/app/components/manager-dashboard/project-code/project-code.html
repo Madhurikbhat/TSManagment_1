@@ -1,0 +1,79 @@
+<div>
+  <h3>Project Codes</h3>
+  <button (click)="openProjectCode()" class="create-btn">Create</button>
+
+  @if (projectCodes?.length) {
+    <table class="project-codes-table">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Project Name</th>
+          <th>Client Name</th>
+          <th>Billable</th>
+          <th>Active</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @for (pc of projectCodes; track pc.id) {
+          <tr>
+            <td>{{ pc.code }}</td>
+            <td>{{ pc.projectName }}</td>
+            <td>{{ pc.clientName }}</td>
+            <td>{{ pc.isBillable ? 'Yes' : 'No' }}</td>
+            <td>{{ pc.isActive ? 'Yes' : 'No' }}</td>
+            <td>
+              <button (click)="editProjectCode(pc)">Update</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  } @else {
+    <p>No project codes available.</p>
+  }
+</div>
+
+@if (showCreateModal) {
+  <div class="modal-backdrop">
+    <div class="modal">
+      <h4> {{ isEdit ? 'Edit' : 'Create' }} Project Code</h4>
+
+      <form (ngSubmit)="saveProjectCode()">
+        <div class="form-row">
+          <label>Code</label>
+          <input name="code" [(ngModel)]="newCode.code" required />
+        </div>
+
+        <div class="form-row">
+          <label>Project Name</label>
+          <input name="projectName" [(ngModel)]="newCode.projectName" required />
+        </div>
+
+        <div class="form-row">
+          <label>Client Name</label>
+          <input name="clientName" [(ngModel)]="newCode.clientName" />
+        </div>
+
+        <div class="form-row">
+          <label>Is Billable</label>
+          <select name="isBillable" [(ngModel)]="newCode.isBillable">
+            <option [ngValue]="true">Yes</option>
+            <option [ngValue]="false">No</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label>Activate</label>
+          <input type="checkbox" name="isActive" [(ngModel)]="newCode.isActive" />
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" (click)="cancelCreate()">Cancel</button>
+          <button type="submit">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+}

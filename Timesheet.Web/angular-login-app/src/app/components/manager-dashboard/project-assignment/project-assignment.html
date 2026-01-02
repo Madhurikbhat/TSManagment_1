@@ -1,0 +1,48 @@
+<div class="project-assignment">
+    <h3>Project Assignment</h3>
+
+    <div class="assignment-form">
+         <select [(ngModel)]="newAssign.projectCodeId" name="project">
+            <option value="">Select project code</option>
+
+            @for (a of projectOptions; track a.id) {
+            <option [value]="a.id">{{ a.name }}</option>
+            }
+        </select>
+        <select [(ngModel)]="newAssign.userId" name="assignee">
+            <option value="">Select user</option>
+
+            @for (a of assigneeOptions; track a.id) {
+            <option [value]="a.id">{{ a.name }}</option>
+            }
+        </select>
+        <input type="date" [(ngModel)]="newAssign.startDate" />
+        <input type="date" [(ngModel)]="newAssign.endDate" />
+        <button (click)="addAssignment()" [disabled]="isSaving">{{ isSaving ? 'Assigning...' : 'Assign' }}</button>
+    </div>
+
+    @if (assignments.length > 0) {
+    <table class="assign-table">
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>User</th>
+                <th>Start</th>
+                <th>End</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @for (a of assignments; track a.projectCodeId ?? $index; let i = $index) {
+            <tr>
+                <td>{{ a.projectName }}</td>
+                <td>{{ a.assigneeName }}</td>
+                <td>{{ a.startDate }}</td>
+                <td>{{ a.endDate }}</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    }
+</div>

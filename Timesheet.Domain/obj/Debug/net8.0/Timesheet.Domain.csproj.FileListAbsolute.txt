@@ -1,0 +1,12 @@
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\bin\Debug\net8.0\Timesheet.Domain.deps.json
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\bin\Debug\net8.0\Timesheet.Domain.dll
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\bin\Debug\net8.0\Timesheet.Domain.pdb
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.AssemblyInfoInputs.cache
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.AssemblyInfo.cs
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.dll
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\refint\Timesheet.Domain.dll
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.pdb
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\ref\Timesheet.Domain.dll
+C:\Users\KURIYA\source\repos\TSManagement\Timesheet.Domain\obj\Debug\net8.0\Timesheet.Domain.sourcelink.json

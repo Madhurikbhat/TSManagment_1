@@ -1,0 +1,109 @@
+<div class="user-hours">
+  <div class="controls" style="display:flex;gap:8px;align-items:center;margin-bottom:12px;">
+    <label style="display:flex;align-items:center;gap:6px;">
+      View
+      <select [(ngModel)]="selectedView" name="viewSelect">
+        <option value="employee">Employee</option>
+        <option value="project">Project</option>
+        <option value="billable">Billable</option>
+      </select>
+    </label>
+
+    <label style="display:flex;align-items:center;gap:6px;">
+      Start
+      <input type="date" [(ngModel)]="startDate" name="startDate" />
+    </label>
+
+    <label style="display:flex;align-items:center;gap:6px;">
+      End
+      <input type="date" [(ngModel)]="endDate" name="endDate" />
+    </label>
+
+    <button (click)="search()" [disabled]="!selectedView || !startDate || !endDate" style="padding:6px 10px;border-radius:6px;">
+      {{ loading ? 'Loading...' : 'Search' }}
+    </button>
+  </div>
+
+  <!-- Employeewise -->
+  @if (selectedView === 'employee') {
+    <table class="uh-table">
+      <thead>
+        <tr>
+          <th>User Name</th>
+          <th class="num">Total Hours</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @if (rows?.length) {
+          @for (r of rows; track r.userId) {
+            <tr>
+              <td>{{ r.userName }}</td>
+              <td class="num">{{ r.totalHours }}</td>
+            </tr>
+          }
+        } @else {
+          <tr>
+            <td colspan="2">No data</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+
+  <!-- Projectwise -->
+  @if (selectedView === 'project') {
+    <table class="uh-table">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Billable</th>
+          <th class="num">Total Hours</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @if (projectRows?.length) {
+          @for (p of projectRows; track p.projectCodeId) {
+            <tr>
+              <td>{{ p.projectName }}</td>
+              <td>{{ p.isBillable ? 'Yes' : 'No' }}</td>
+              <td class="num">{{ p.totalHours }}</td>
+            </tr>
+          }
+        } @else {
+          <tr>
+            <td colspan="3">No project data</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+
+  <!-- Billable -->
+  @if (selectedView === 'billable') {
+    <table class="uh-table">
+      <thead>
+        <tr>
+          <th>Billable</th>
+          <th class="num">Total Hours</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        @if (billableRows?.length) {
+          @for (b of billableRows; track b.isBillable) {
+            <tr>
+              <td>{{ b.isBillable ? 'Yes' : 'No' }}</td>
+              <td class="num">{{ b.totalHours }}</td>
+            </tr>
+          }
+        } @else {
+          <tr>
+            <td colspan="2">No data</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+</div>
