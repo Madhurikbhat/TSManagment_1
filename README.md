@@ -1,4 +1,4 @@
-Title: TSManagement — Architecture & Project Overview
+#Title: TSManagement — Architecture & Project Overview
 
 **Overview:**
 
@@ -7,18 +7,18 @@ Solution file: TSManagement.sln
 
 **Architecture (high-level):**
 
-Layered flow: Client (Angular) -> HTTP API (Timesheet.API) -> Application services (Timesheet.Application) -> Domain (Timesheet.Domain) -> Persistence (Timesheet.Infrastructure / EF Core) -> Database (script.sql).
-Data flow: Controllers accept requests -> call Application services -> services manipulate Domain entities and use TimesheetDbContext -> EF Core maps entities to DB. Responses use DTOs mapped by AutoMapper.
+- Layered flow: Client (Angular) -> HTTP API (Timesheet.API) -> Application services (Timesheet.Application) -> Domain (Timesheet.Domain) -> Persistence (Timesheet.Infrastructure / EF Core) -> Database (script.sql).
+- Data flow: Controllers accept requests -> call Application services -> services manipulate Domain entities and use TimesheetDbContext -> EF Core maps entities to DB. Responses use DTOs mapped by AutoMapper.
 
 **Design patterns & practices:**
 
-Layered/Clean-inspired architecture: separation of concerns between API, application logic, domain, and infrastructure.
-Dependency Injection: built-in .NET DI configured in Program.cs.
-DTO + Mapping: DTOs in DTOs mapped via MappingProfile.cs to Domain entities.
-Service layer: Timesheet.Application/Services/* implements business use-cases and orchestrates repositories/DbContext.
-EF Core (DbContext as repository): Timesheet.Infrastructure/TimesheetDbContext .cs used directly by services .
-Reactive frontend: Angular + RxJS for async flows; NgRx used for project-related state (actions/reducers/effects).
-Testing: Unit tests in Timesheet.Test (service/controller tests) and frontend unit tests in angular-login-app (Angular test suites). Test results and coverage appear under TestResult.
+- Layered/Clean-inspired architecture: separation of concerns between API, application logic, domain, and infrastructure.
+- Dependency Injection: built-in .NET DI configured in Program.cs.
+- DTO + Mapping: DTOs in DTOs mapped via MappingProfile.cs to Domain entities.
+- Service layer: Timesheet.Application/Services/* implements business use-cases and orchestrates repositories/DbContext.
+- EF Core (DbContext as repository): Timesheet.Infrastructure/TimesheetDbContext .cs used directly by services .
+- Reactive frontend: Angular + RxJS for async flows; NgRx used for project-related state (actions/reducers/effects).
+- Testing: Unit tests in Timesheet.Test (service/controller tests) and frontend unit tests in angular-login-app (Angular test suites). Test results and coverage appear under TestResult.
 
 **Project structure (concise):**
 
